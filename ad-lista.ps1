@@ -87,8 +87,8 @@ $relatorio | Out-File $arquivo -Encoding Utf8
 $resultado | Sort Company | Export-Csv ad-lista.csv -NoTypeInformation -Encoding Utf8
 
 #--ENVIAR RELATÓRIO VIA E-MAIL--------------------------------------#
-$de = "auditoria@100security.com.br"
-$para = "marcos@100security.com.br"
+$de = "email@domain.com.br"
+$para = "email@domain.com.br"
 $assunto = "Active Directory - $data"
 $smtp = "192.168.1.200"
 $porta = "25"
